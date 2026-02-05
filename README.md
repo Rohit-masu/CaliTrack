@@ -1,4 +1,3 @@
-=======
 # 🥛 CaliTrack - Milk Bill Tracker
 
 A simple React application to track monthly milk bills from different vendors with visual calendar marking and automated bill calculation.

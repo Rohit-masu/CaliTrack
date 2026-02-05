@@ -1,12 +1,38 @@
-# React + Vite
+=======
+# 🥛 CaliTrack - Milk Bill Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application to track monthly milk bills from different vendors with visual calendar marking and automated bill calculation.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📅 Interactive calendar with color-coded delivery markers
+- 🎯 Click dates to cycle through delivery options (Vender 1, Vender 2, Both, None)
+- 💰 Automatic bill calculation with separate vendor tracking
+- 💾 Local storage persistence - data saved in browser
+- ✅ Mark months as paid (preserves data, changes status only)
+- 🔄 Individual vendor reset options
+- 📊 Stats dashboard with delivery day counts
+- 🎨 Clean, responsive UI with Tailwind CSS
 
-## Expanding the ESLint configuration
+## Color Coding
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Orange** = Vender 1 only
+- **Purple** = Vender 2 only
+- **Gradient** = Both vendors
+- **Light Green** = Paid month (cannot edit)
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/caliTrack.git
+
+# Navigate to project
+cd caliTrack
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+>>>>>>> edda477acda2f120eaeef68d2820713452d66256
